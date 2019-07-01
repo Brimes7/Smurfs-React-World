@@ -1,3 +1,64 @@
 .App {
   text-align: center;
+  background-color: teal;
+  height: 100%;
+}
+nav {
+	background-color: lightblue;
+	/*height: 50px;*/
+	padding: 50px;
+	border-bottom: 3px dotted black;
+}
+
+nav a {
+	margin: 20px;
+	text-decoration: none;
+	color: rgb(241, 88, 247);
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+.Smurfs {
+	text-align: center;
+	margin-left: 10%;
+}
+
+.Smurfs h1 {
+	font-family: comic sans;
+	font-size: 3em;
+}
+
+.Smurf {
+	border: solid 2px black;
+	margin-bottom: 2%;
+	width: 50%;
+	padding: 10px;
+	background-color: rgb(234, 110, 238);
+	box-shadow: 5px 5px 15px black;
+	border-radius: 5px;
+}
+
+.active {
+	font-size: 1.5em;
+	background-color: white;
+	padding: 1px 10px 2px 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+form {
+	margin-top: 3%;
+}
+
+input {
+	padding: 5px;
+	border-radius: 6px;
+	width: 300px;
+	box-shadow: 3px 3px 10px black;
+}
+
+button {
+	padding: 5px 20px;
+	border-radius: 5px;
+  box-shadow: 2px 2px 10px black;
 }
