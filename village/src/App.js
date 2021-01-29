@@ -8,13 +8,16 @@ import axios from 'axios';
 import {Route, NavLink} from 'react-router-dom';
 
 class App extends Component {
+    //Initializes the state
   constructor(props) {
+    //Calls Parent Class Constructor
     super(props);
+    //Shoes the rendered values on the screen
     this.state = {
       smurfs: [],
     };
   }
-
+    //Components that are created to insert themselves in the DOM
   componentDidMount() {
     axios
       .get('http://localhost:3333/smurfs')
@@ -25,7 +28,7 @@ class App extends Component {
         console.error('Server Error', error);
       });
   }
-
+    //This is the action to allow the smurf to be added
   addSmurf = smurf => {
     console.log(smurf)
     axios
